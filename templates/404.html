@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 - Page Not Found</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&family=Keania+One&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      body {
+        font-family: "Poppins", sans-serif;
+        background-color: #121212;
+        color: #ffffff;
+        margin: 0;
+        padding: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+        text-align: center;
+        line-height: 1.6;
+      }
+      h1 {
+        font-family: "Keania One", cursive;
+        font-size: 3rem;
+        margin-bottom: 1rem;
+        color: #1e90ff;
+      }
+      p {
+        margin: 0.5rem 0;
+        font-size: 1.1rem;
+      }
+      a {
+        color: #1e90ff;
+        text-decoration: none;
+        font-weight: 600;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+      .api-list {
+        margin-top: 2rem;
+        font-size: 1.2rem;
+      }
+      .api-list ul {
+        list-style: none;
+        padding: 0;
+      }
+      .api-list li {
+        margin: 0.5rem 0;
+      }
+      .image-container {
+        margin-bottom: 1rem;
+      }
+      .image-container img {
+        max-width: 100%;
+        height: auto;
+        filter: invert(1);
+      }
+    </style>
+  </head>
+  <body>
+    <div class="image-container">
+      <img
+        src="https://itbox.id/wp-content/uploads/2022/11/cara-mengatasi-error-404.jpeg"
+        alt="404 - Page Not Found"
+      />
+    </div>
+    <p>
+      It seems the page you're looking for is lost in the void. But don’t worry,
+      we've got some APIs you can explore:
+    </p>
+
+    <div class="api-list">
+      <ul>
+        <li>
+          <a href="https://yoloverse.pythonanywhere.com/api/menus/"
+            >Menu API (GET)</a
+          >
+        </li>
+        <li>
+          <a href="https://yoloverse.pythonanywhere.com/api/profile/"
+            >Profile API (GET)</a
+          >
+        </li>
+        <li>
+          <a href="https://yoloverse.pythonanywhere.com/api/opening-hour/"
+            >Opening Hours API (GET)</a
+          >
+        </li>
+        <li>
+          <a href="https://yoloverse.pythonanywhere.com/api/faq/"
+            >FAQ API (GET)</a
+          >
+        </li>
+        <li>
+          <a href="https://yoloverse.pythonanywhere.com/api/contact/"
+            >Contact Us API (POST)</a
+          >
+        </li>
+        <li>
+          <a
+            href="https://yoloverse.pythonanywhere.com/api/contact/testimonials/"
+            >Testimonials API (GET/POST)</a
+          >
+        </li>
+      </ul>
+    </div>
+
+    <p>
+      If you'd like to dive deeper into the APIs, check out our documentation:
+    </p>
+    <p>
+      <a href="https://yoloverse.pythonanywhere.com/redoc/">Redoc</a> |
+      <a href="https://yoloverse.pythonanywhere.com/swagger/">Swagger-UI</a>
+    </p>
+  </body>
+</html>
